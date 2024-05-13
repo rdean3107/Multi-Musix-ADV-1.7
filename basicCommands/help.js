@@ -17,7 +17,7 @@ module.exports = {
         url: 'https://discord.gg/FUEHs7RCqz'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [GlaceYT](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [Hate](https://www.instagram.com/_tuiladuyanh/)**\n\n__**COMMANDS :**__ `)
       .addFields(
       
         {
@@ -57,7 +57,7 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://media.discordapp.net/attachments/1181738726565621862/1239591428515168256/271389667_448339246974989_2038488882931339899_n.jpg?ex=66437afb&is=6642297b&hm=29d250f3f962bc2a63792b28b0c0925c81c28255dfd3abb312a153a26528be86&=&format=webp&width=496&height=662`);
+      .setImage(`https://cdn.discordapp.com/attachments/1181233390788292709/1239599119451033690/IMG_0423.jpg?ex=66438224&is=664230a4&hm=fe65961ea6272e07fdbb98a92fb4a780ecbfa16cbba6766d24314333fd8a61c5&`);
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
