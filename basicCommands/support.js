@@ -4,10 +4,10 @@ module.exports = {
     name: 'support',
     description: 'support server of this Bot',
     execute(message, args) {
-        const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-      const githubLink = "https://github.com/GlaceYT";
-      const replitLink = "https://replit.com/@GlaceYT";
-      const youtubeLink = "https://www.youtube.com/@GlaceYT";
+        const supportServerLink = "https://discord.gg/katshome";
+      const githubLink = "https://github.com/rdean3107";
+      const replitLink = "https://replit.com/@rdean3107";
+      const youtubeLink = "https://www.youtube.com/@rdean3107";
         const embed = new EmbedBuilder()
             .setColor('#b300ff')
             .setAuthor({
@@ -16,7 +16,7 @@ module.exports = {
               url: 'https://discord.gg/xQF9f9yUEM'
           })
             .setDescription(`➡️ **Join our Discord server for support and updates:**\n- Discord - ${supportServerLink}\n\n➡️ **Follow us on:**\n- GitHub - ${githubLink}\n- Replit - ${replitLink}\n- YouTube - ${youtubeLink}`)
-            .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+            .setImage('https://cdn.discordapp.com/attachments/1181233390788292709/1239599119451033690/IMG_0423.jpg?ex=66438224&is=664230a4&hm=fe65961ea6272e07fdbb98a92fb4a780ecbfa16cbba6766d24314333fd8a61c5&')
             .setTimestamp();
 
         message.reply({ embeds: [embed] });
