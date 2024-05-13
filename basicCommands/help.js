@@ -60,18 +60,18 @@ module.exports = {
       .setImage(`https://cdn.discordapp.com/attachments/1181233390788292709/1239599119451033690/IMG_0423.jpg?ex=66438224&is=664230a4&hm=fe65961ea6272e07fdbb98a92fb4a780ecbfa16cbba6766d24314333fd8a61c5&`);
 
     const button1 = new ButtonBuilder()
-      .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setLabel('Instagram ')
+      .setURL('https://www.instagram.com/_tuiladuyanh')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/xQF9f9yUEM')
+      .setURL('https://discord.gg/katshome')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
       .setLabel('Code')
-      .setURL('https://github.com/GlaceYT')
+      .setURL('https://www.instagram.com/_tuiladuyanh')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
